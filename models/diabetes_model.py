@@ -24,6 +24,3 @@ def predict_diabetes(attributes):
     return probability_diabetes[0]
 
 
-new_patient_attributes = [6, 150, 72, 35, 0, 20, 50]
-diabetes_probability = predict_diabetes(new_patient_attributes)
-print("Probability of having diabetes:", diabetes_probability)

@@ -14,7 +14,7 @@ def home():
 def predict():
     try:
         input_array = request.json
-        someNumber = predict_diabetes([6, 160, 23, 14, 9, 29, 55])
+        someNumber = predict_diabetes(input_array)
         return jsonify({'data': someNumber})
     except Exception as e:
         print(e)

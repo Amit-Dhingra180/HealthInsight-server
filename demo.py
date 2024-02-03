@@ -1,6 +1,5 @@
-from models.diabetes_model import predict_diabetes
-
-new_patient_attributes = [6, 160, 23, 14, 9, 29, 55]
-x = predict_diabetes(new_patient_attributes)
-print('This is in demo file', x)
+from models.heart_model import predict_heart
+another_patient = [58, 0, 3, 100, 248, 0, 0, 122, 0, 1, 1, 0, 2]
+x = predict_heart(another_patient)
+print('another', x)
 
